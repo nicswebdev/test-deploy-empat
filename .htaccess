@@ -1,0 +1,4 @@
+# Redirect traffic to your port 1337 
+RewriteEngine On 
+RewriteBase / 
+RewriteRule ^(.*)?$ http://127.0.0.1:1337/$1 [P,L]

@@ -1,0 +1,43 @@
+diff --git a/node_modules/@strapi/admin/admin/src/pages/HomePage/index.js b/node_modules/@strapi/admin/admin/src/pages/HomePage/index.js
+index ae1448f..2efa918 100644
+--- a/node_modules/@strapi/admin/admin/src/pages/HomePage/index.js
++++ b/node_modules/@strapi/admin/admin/src/pages/HomePage/index.js
+@@ -76,12 +76,12 @@ const HomePage = () => {
+             </GridItem>
+           </Grid>
+           <Grid gap={6}>
+-            <GridItem col={8} s={12}>
++            {/* <GridItem col={8} s={12}>
+               {showGuidedTour ? <GuidedTourHomepage /> : <ContentBlocks />}
+             </GridItem>
+             <GridItem col={4} s={12}>
+               <SocialLinks />
+-            </GridItem>
++            </GridItem> */}
+           </Grid>
+         </Box>
+       </Main>
+diff --git a/node_modules/@strapi/admin/admin/src/translations/en.json b/node_modules/@strapi/admin/admin/src/translations/en.json
+index 128dff9..a66555c 100644
+--- a/node_modules/@strapi/admin/admin/src/translations/en.json
++++ b/node_modules/@strapi/admin/admin/src/translations/en.json
+@@ -44,8 +44,8 @@
+   "Auth.form.rememberMe.label": "Remember me",
+   "Auth.form.username.label": "Username",
+   "Auth.form.username.placeholder": "e.g. Kai_Doe",
+-  "Auth.form.welcome.subtitle": "Log in to your Strapi account",
+-  "Auth.form.welcome.title": "Welcome to Strapi!",
++  "Auth.form.welcome.subtitle": "Log in to your Test account",
++  "Auth.form.welcome.title": "Welcome!",
+   "Auth.link.forgot-password": "Forgot your password?",
+   "Auth.link.ready": "Ready to sign in?",
+   "Auth.link.signin": "Sign in",
+@@ -355,7 +355,7 @@
+   "app.components.LeftMenu.logout": "Logout",
+   "app.components.LeftMenu.logo.alt": "Application logo",
+   "app.components.LeftMenu.plugins": "Plugins",
+-  "app.components.LeftMenu.navbrand.title": "Strapi Dashboard",
++  "app.components.LeftMenu.navbrand.title": "Test Dashboard",
+   "app.components.LeftMenu.navbrand.workplace": "Workplace",
+   "app.components.LeftMenuFooter.help": "Help",
+   "app.components.LeftMenuFooter.poweredBy": "Powered by ",

@@ -18,7 +18,7 @@ index ae1448f..2efa918 100644
          </Box>
        </Main>
 diff --git a/node_modules/@strapi/admin/admin/src/translations/en.json b/node_modules/@strapi/admin/admin/src/translations/en.json
-index 128dff9..f9313d4 100644
+index 128dff9..9f3d221 100644
 --- a/node_modules/@strapi/admin/admin/src/translations/en.json
 +++ b/node_modules/@strapi/admin/admin/src/translations/en.json
 @@ -44,8 +44,8 @@
@@ -32,12 +32,15 @@ index 128dff9..f9313d4 100644
    "Auth.link.forgot-password": "Forgot your password?",
    "Auth.link.ready": "Ready to sign in?",
    "Auth.link.signin": "Sign in",
-@@ -336,7 +336,7 @@
+@@ -334,9 +334,9 @@
+   "app.components.HomePage.create": "Create your first Content type",
+   "app.components.HomePage.roadmap": "See our roadmap",
    "app.components.HomePage.welcome": "Welcome on board 👋",
-   "app.components.HomePage.welcome.again": "Welcome 👋",
+-  "app.components.HomePage.welcome.again": "Welcome 👋",
++  "app.components.HomePage.welcome.again": "Welcome Admin 👋",
    "app.components.HomePage.welcomeBlock.content": "Congrats! You are logged as the first administrator. To discover the powerful features provided by Strapi, we recommend you to create your first Content type!",
 -  "app.components.HomePage.welcomeBlock.content.again": "We hope you are making progress on your project! Feel free to read the latest news about Strapi. We are giving our best to improve the product based on your feedback.",
-+  "app.components.HomePage.welcomeBlock.content.again": "We hope you are making progress on your project! Feel free to contact us now.",
++  "app.components.HomePage.welcomeBlock.content.again": "We hope you are making progress on your project! Feel free to contact us today.",
    "app.components.HomePage.welcomeBlock.content.issues": "issues.",
    "app.components.HomePage.welcomeBlock.content.raise": " or raise ",
    "app.components.ImgPreview.hint": "Drag & drop your file into this area or {browse} for a file to upload",
